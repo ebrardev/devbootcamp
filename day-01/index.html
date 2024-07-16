@@ -56,30 +56,38 @@
     <section class="contact-section">
         <h3>contact us</h3>
         <!-- form elements -->
-        <form action="" >
-            <label for="name">name:</label>
-            <input type="text" id="name" placeholder="name">
-            <br>
-            <label for="surname">surname:</label>
-            <input type="text" id="surname" placeholder="surname">
-            <br>
-            <label for="email">email:</label>
-            <input type="email" id="email" placeholder="email adress">
-             <br>
-            <label for="phone"> phone:</label>
-            <input type="tel" id="phone" placeholder="phone nunber">
-            <br>
-            <label for="age"> age:</label>
-            <input type="number" id="number" placeholder="age">
-            <br>
-            <label for=""> password</label>
-            <input type="password" id="password" placeholder="password">
-            
-            <br>
-            <label for="birthday"> birthday:</label>
-            <input type="datetime-local" id="birthday" placeholder="birthday">
+        <form action="/submit_form" >
+                <!-- fieldset -->
+            <fieldset>
+                <legend>personal information</legend>
+                <label for="name">name:</label>
+                <input type="text" id="name" placeholder="name">
+                <br>
+                <label for="surname">surname:</label>
+                <input type="text" id="surname" placeholder="surname">
+                <br>
+                <label for="age"> age:</label>
+                <input type="number" id="number" placeholder="age">
+                <label for="birthday"> birthday:</label>
+                <input type="datetime-local" id="birthday" placeholder="birthday">
+               
 
-            <br>
+            </fieldset>
+            <fieldset>
+                <legend>Contact information</legend>
+
+                <label for="email">email:</label>
+                <input type="email" id="email" placeholder="email adress">
+                 <br>
+                <label for="phone"> phone:</label>
+                <input type="tel" id="phone" placeholder="phone nunber">
+            </fieldset>
+       
+         
+            <!-- <label for=""> password</label>
+            <input type="password" id="password" placeholder="password"> -->
+            
+           
 
             <input type="button" value="Submit">
 
@@ -124,8 +132,19 @@
 
     <br>
     <br>
-    <!-- footer -->
-    <footer>
+<section class="video-section">
+    <h1>vmichael jackson video</h1>
+
+     <!-- iframe -->
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/ULdYXyXJMzI?si=tJVMQT4vvMg10QS_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+   
+     <!-- footer -->
+
+  <footer>
+
+
+   
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus est ad eos corrupti, omnis delectus reiciendis? Perspiciatis officia, earum omnis a commodi iusto beatae maiores cum ullam! Quas, qui perspiciatis.
         Pariatur reiciendis nam harum molestiae cupiditate, sed minima quibusdam temporibus aliquam, deserunt veritatis asperiores architecto aliquid repudiandae dolorem labore laboriosam doloribus, sunt autem dolores tempora iusto fugiat alias! Omnis, natus!
     </footer>
