@@ -1,0 +1,45 @@
+ .ins-preview-wrapper{
+    display: flex;
+flex-direction: row;
+width: 250px;
+background-color: red;
+height: 250px;
+}
+
+
+
+.ins-element-1{
+   flex: 1;
+    background-color: black;
+}
+.ins-element-2{
+flex:2;
+    background-color: white;
+}
+
+.ins-element-3{
+    flex: 3;
+    background-color: blue;
+}
+
+
+/* .ins-preview-wrapper div{
+    display: flex;
+    flex-direction: column-reverse;
+
+
+}
+
+.ins-preview-wrapper div div{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: blueviolet;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid black;
+
+}  */
