@@ -33,3 +33,12 @@
    align-items: center;
    transition: all 0.5s ease-out 1s;
 }
+
+ /* responsive with media query */
+@media (max-width: 767px) {
+    
+.container {
+    flex-direction: column;
+    height: 95vh;
+}
+}
