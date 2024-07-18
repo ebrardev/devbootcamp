@@ -1,0 +1,35 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 5px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   animation: blink 2s infinite;
+   /* animation: blink 2s ease; */
+} @keyframes blink {
+    0%{width: 95%;}
+    25%{width: 55%;}
+    100% {width:15%;}
+}
+
+.box:hover{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 5px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.5s ease-out 1s;
+}
